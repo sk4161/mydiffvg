@@ -1,4 +1,7 @@
-# diffvg
+# mydiffvg
+Differentiable Rasterizer for Vector Graphics for [DualVector](https://github.com/thuliu-yt16/dualvector.git).
+
+# Original Description
 Differentiable Rasterizer for Vector Graphics
 https://people.csail.mit.edu/tzumao/diffvg
 
@@ -16,7 +19,7 @@ diffvg is a differentiable rasterizer for 2D vector graphics. See the webpage fo
 ![circle_outline](https://user-images.githubusercontent.com/951021/65125594-84f7a280-d9aa-11e9-8bc4-669fd2eff2f4.gif)
 ![ellipse_transform](https://user-images.githubusercontent.com/951021/67149013-06b54700-f25b-11e9-91eb-a61171c6d4a4.gif)
 
-# Install
+## Install
 ```
 git submodule update --init --recursive
 conda install -y pytorch torchvision -c pytorch
@@ -32,9 +35,9 @@ pip install torch-tools
 pip install visdom
 python setup.py install
 ```
-# Install using poetry
+## Install using poetry
 
-## prerequisite
+### prerequisite
 install python 3.7, poetry and ffmpeg
 
 ```
@@ -53,7 +56,7 @@ or use conda
 conda install -y -c conda-forge ffmpeg
 ```
 
-## Install python packages
+### Install python packages
 
 ```
 # install all python dependencies
@@ -69,13 +72,13 @@ Now to run the apps, just add `poetry run` before each of the commands below, e.
 poetry run python single_circle.py
 ```
 
-# Building in debug mode
+## Building in debug mode
 
 ```
 python setup.py build --debug install
 ```
 
-# Run
+## Run
 ```
 cd apps
 ```
